@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('content')
 
-
 <script>
 function blackOrange() {
     document.getElementById("example").className = "black-orange";
@@ -30,6 +29,9 @@ function orangePùrple() {
 
 
 </script>
+
+<script>$("#tema option[value={{ Auth::user()->tema }}]").attr('selected', 'selected');</script>
+
 
 
 
@@ -82,11 +84,7 @@ function orangePùrple() {
 <br>
 <br>
 <br>
-<div class="container">
-<div class="row">
 <button type="submit"class="col-md-4 col-md-offset-4">Enviar</button>
-</div>
-</div>
 </form>
 
 
@@ -111,6 +109,5 @@ function orangePùrple() {
 
 
 
-<script>$("#tema option[value={{ Auth::user()->tema }}]").attr('selected', 'selected');</script>
 
 @endsection
