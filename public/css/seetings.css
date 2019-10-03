@@ -9,11 +9,8 @@
 }
 
 
-#example{
+.example{
     width:20%;
-    margin-left:78%;
-    margin-top:-50%;
-    
     height:410px;
     overflow: hidden;
     border-radius:20%;

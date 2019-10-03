@@ -23,8 +23,8 @@
 <div class="card-body">
 <h3 class="card-title margem-texto-card">{{ $e->titulo }}</h3>
 <p class="card-text margem-texto-card">{{ $e->link }}</p>
-<a href="#" class="btn cor-buttons-card margem-buttons-card" data-toggle="modal" data-target="#edicao{{ $e->id }}">Editar</a>
-<a href="#" class="btn cor-buttons-card" data-toggle="modal" data-target="#excluir{{ $e->id }}">Excluir</a>
+<a href="#" class="btn btn-primary margem-buttons-card" data-toggle="modal" data-target="#edicao{{ $e->id }}">Editar</a>
+<a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#excluir{{ $e->id }}">Excluir</a>
 </div>
 </div>
 @endforeach

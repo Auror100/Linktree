@@ -34,9 +34,7 @@ Route::patch('/settings','SettingsController@updateSettings');
 
 Route::get('/conta/{username}','ContaController@indexConta');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
